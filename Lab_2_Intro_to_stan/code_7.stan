@@ -8,7 +8,7 @@ parameters {
 }
 
 model {
-    // conditional probability density for the ys 
+    // conditional probability density for the ys
     // given theta
     y ~ normal(theta, 1);
     // prior probabiltiy density for theta
