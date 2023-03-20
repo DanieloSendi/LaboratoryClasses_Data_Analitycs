@@ -8,5 +8,6 @@ generated quantities {
     N = 50;//number of trials
     int y;//number of successes
     real p; //probability of allergic reaction
-    
+    real p = p_rng((0,121));
+   
 }
