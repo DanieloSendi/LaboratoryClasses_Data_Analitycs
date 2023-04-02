@@ -1,6 +1,6 @@
 data {
-  int<lower=0> N; // number of samples
-  real<lower=0> weight[N]; // weight data
+  int N; // number of samples
+  real weight[N]; // weight data
 }
 
 generated quantities {
@@ -9,6 +9,6 @@ generated quantities {
   real sigma = exponential_rng(0.067);
   real height[N];
   for (i in 1:N) {
-    height[i] = normal_rng(alpha + beta * weight[i], sigma);
+    height[i] = normal_rng(alpha + beta * weight[i],sigma);
   }
 }
