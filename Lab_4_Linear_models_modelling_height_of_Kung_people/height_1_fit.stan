@@ -10,7 +10,7 @@ parameters {
 
 model {
   mu ~ normal(180, 15);   // prior for mu
-  sigma ~ normal(15, 5);  // prior for sigma
+  sigma ~ exponential(0.067);  // prior for sigma
   heights ~ normal(mu, sigma);  // likelihood
 }
 

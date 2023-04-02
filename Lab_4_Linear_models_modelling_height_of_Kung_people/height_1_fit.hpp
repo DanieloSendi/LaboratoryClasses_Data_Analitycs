@@ -14,7 +14,7 @@ static constexpr std::array<const char*, 10> locations_array__ =
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_fit.stan', line 8, column 2 to column 22)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_fit.stan', line 18, column 2 to column 38)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_fit.stan', line 12, column 2 to column 23)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_fit.stan', line 13, column 2 to column 24)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_fit.stan', line 13, column 2 to column 29)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_fit.stan', line 14, column 2 to column 30)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_fit.stan', line 2, column 2 to column 17)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_fit.stan', line 3, column 24 to column 25)",
@@ -114,7 +114,7 @@ class height_1_fit_model final : public model_base_crtp<height_1_fit_model> {
         current_statement__ = 4;
         lp_accum__.add(stan::math::normal_lpdf<propto__>(mu, 180, 15));
         current_statement__ = 5;
-        lp_accum__.add(stan::math::normal_lpdf<propto__>(sigma, 15, 5));
+        lp_accum__.add(stan::math::exponential_lpdf<propto__>(sigma, 0.067));
         current_statement__ = 6;
         lp_accum__.add(stan::math::normal_lpdf<propto__>(heights, mu, sigma));
       }

@@ -14,7 +14,7 @@ static constexpr std::array<const char*, 7> locations_array__ =
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_ppc.stan', line 4, column 4 to column 24)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_ppc.stan', line 5, column 4 to column 25)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_ppc.stan', line 7, column 4 to column 29)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_ppc.stan', line 8, column 4 to column 30)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_ppc.stan', line 8, column 4 to column 35)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_1_ppc.stan', line 11, column 4 to column 35)"};
 
 
@@ -123,7 +123,7 @@ class height_1_ppc_model final : public model_base_crtp<height_1_ppc_model> {
       current_statement__ = 4;
       mu = stan::math::normal_rng(180, 15, base_rng__);
       current_statement__ = 5;
-      sigma = stan::math::normal_rng(15, 5, base_rng__);
+      sigma = stan::math::exponential_rng(0.067, base_rng__);
       current_statement__ = 6;
       height = stan::math::normal_rng(mu, sigma, base_rng__);
       current_statement__ = 1;
