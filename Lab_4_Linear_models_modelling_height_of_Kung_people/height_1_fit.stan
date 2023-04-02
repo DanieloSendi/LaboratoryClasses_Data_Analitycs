@@ -1,20 +1,19 @@
 data {
-    real<lower=0,upper=N> heights;
+  int<lower=0> N;        // number of samples
+  real<lower=0> heights[N]; // array of heights
 }
 
-parameters{
-    real<lower=0, upper=1> mean;
-    real<lower=0, upper=1> standardev;
+parameters {
+  real mu;        // mean
+  real<lower=0> sigma;  // standard deviation
 }
 
-model{
-    // Prior
-  p ~ normal_rng(mean, standardev);
-
-  // Likelihood
-  y ~ binomial_rng(mean, standardev);
+model {
+  mu ~ normal(180, 15);   // prior for mu
+  sigma ~ normal(15, 5);  // prior for sigma
+  heights ~ normal(mu, sigma);  // likelihood
 }
 
 generated quantities {
-   
+  real height = normal_rng(mu, sigma); // generate a single height consistent with the model
 }
