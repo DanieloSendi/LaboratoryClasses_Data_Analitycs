@@ -1,30 +1,31 @@
 data {
   int<lower=0> N; // number of samples
   real<lower=0> heights[N]; // height data
-  real<lower=0> weights[N]; // weight data
+  vector[N] weight; // weight data
 }
 
-parameters {
-  real mi;
+parameters { 
+  real alpha;
+  real beta;
   real<lower=0> sigma;
-  real alfa;
-  real<lower=0> beta;
 }
 
 transformed parameters {
+  vector[N] mu = weight * beta + alpha;
+
   real mi_arr[N];
   for (i in 1:N) {
-    mi_arr[i] = alfa + beta * weights[i];
+    mi_arr[i] = alpha + beta * weight[i];
   }
 }
 
 model {
     
   // priors
-  mi ~ normal(180, 15);
-  sigma ~ normal(15, 5);
-  alfa ~ normal(mi, sigma);
+  alfa ~ normal(180, 15);
   beta ~ lognormal(0, 1);
+  sigma ~ exponential(0.067);
+  heights ~ normal(mu,sigma);
 
   // likelihood
   for (i in 1:N) {
@@ -34,8 +35,8 @@ model {
 }
 
 generated quantities {
-  real height_sim[N];
+  real height[N];
   for (i in 1:N) {
-    height_sim[i] = normal_rng(mi_arr[i], sigma);
+    height[i] = normal_rng(mi_arr[i], sigma);
   }
 }
