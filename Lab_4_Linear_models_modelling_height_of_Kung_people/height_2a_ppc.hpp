@@ -17,7 +17,7 @@ static constexpr std::array<const char*, 12> locations_array__ =
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_2a_ppc.stan', line 12, column 4 to column 59)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_2a_ppc.stan', line 11, column 17 to line 13, column 3)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_2a_ppc.stan', line 11, column 2 to line 13, column 3)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_2a_ppc.stan', line 2, column 2 to column 17)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_2a_ppc.stan', line 2, column 2 to column 8)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_2a_ppc.stan', line 3, column 14 to column 15)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_2a_ppc.stan', line 3, column 2 to column 17)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_4_Linear_models_modelling_height_of_Kung_people/height_2a_ppc.stan', line 10, column 14 to column 15)"};
@@ -65,8 +65,6 @@ class height_2a_ppc_model final : public model_base_crtp<height_2a_ppc_model> {
       
       current_statement__ = 8;
       N = context__.vals_i("N")[(1 - 1)];
-      current_statement__ = 8;
-      stan::math::check_greater_or_equal(function__, "N", N, 0);
       current_statement__ = 9;
       stan::math::validate_non_negative_index("weight", "N", N);
       current_statement__ = 10;
@@ -165,8 +163,8 @@ class height_2a_ppc_model final : public model_base_crtp<height_2a_ppc_model> {
             (alpha +
               (beta *
                 stan::model::rvalue(weight, "weight",
-                  stan::model::index_uni(N)))), sigma, base_rng__),
-          "assigning variable height", stan::model::index_uni(N));
+                  stan::model::index_uni(i)))), sigma, base_rng__),
+          "assigning variable height", stan::model::index_uni(i));
       }
       out__.write(alpha);
       out__.write(beta);
