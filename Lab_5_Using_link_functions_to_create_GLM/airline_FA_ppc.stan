@@ -4,7 +4,7 @@ data {
 }
 
 generated quantities {
-    real alfa = normal_rng(1.8, 0.001);
+    real alfa = normal_rng(1.9, 0.001);
     real theta = normal_rng(0.0002, 0.00008);
     array[N] real lambda;
     array[N] real<lower=0> y; // number of accidents
