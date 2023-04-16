@@ -17,7 +17,7 @@ transformed parameters {
 }
 
 model {
-   alfa ~ normal(1.8, 0.001);
+   alfa ~ normal(1.9, 0.001);
    theta ~ normal(0.0001, 0.00008);
    accidents ~ poisson(lambda);
 }

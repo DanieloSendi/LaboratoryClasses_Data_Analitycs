@@ -154,7 +154,7 @@ class airline_FA_fit_model final : public model_base_crtp<airline_FA_fit_model> 
       }
       {
         current_statement__ = 11;
-        lp_accum__.add(stan::math::normal_lpdf<propto__>(alfa, 1.8, 0.001));
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(alfa, 1.9, 0.001));
         current_statement__ = 12;
         lp_accum__.add(
           stan::math::normal_lpdf<propto__>(theta, 0.0001, 0.00008));
