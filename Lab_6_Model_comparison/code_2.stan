@@ -8,7 +8,7 @@ generated quantities {
     {vector [N] zeros = rep_vector(0,N);
 
     for (j in 1:3) {
-    X[:,j]=to_vector(normal_rng(zeros,1));
+        X[:,j]=to_vector(normal_rng(zeros,1));
     /* code */
 }
 }
