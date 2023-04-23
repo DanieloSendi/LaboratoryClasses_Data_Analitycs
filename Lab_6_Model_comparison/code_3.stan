@@ -9,7 +9,7 @@ parameters {
 }
 
 model {
-    target += -2*log(sigma);
+    target += -2 * log(sigma);
     target += normal_lpdf (y|mu, sigma);
 }
 

@@ -10,17 +10,17 @@ using namespace stan::math;
 stan::math::profile_map profiles__;
 static constexpr std::array<const char*, 23> locations_array__ = 
 {" (found before start of program)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 10, column 4 to column 25)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 11, column 4 to column 20)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 9, column 4 to column 25)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 10, column 4 to column 20)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 15, column 4 to column 18)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 16, column 4 to column 18)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 17, column 4 to column 18)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 25, column 4 to column 23)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 26, column 4 to column 25)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 28, column 8 to column 54)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 29, column 8 to column 46)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 27, column 19 to line 30, column 5)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 27, column 4 to line 30, column 5)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 21, column 4 to column 27)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 24, column 4 to column 23)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 25, column 4 to column 25)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 27, column 8 to column 54)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 28, column 8 to column 46)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 26, column 19 to line 29, column 5)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 26, column 4 to line 29, column 5)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 20, column 4 to column 27)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 2, column 4 to column 10)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 3, column 4 to column 10)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 4, column 11 to column 12)",
@@ -28,10 +28,10 @@ static constexpr std::array<const char*, 23> locations_array__ =
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 5, column 12 to column 13)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 5, column 14 to column 15)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 5, column 4 to column 19)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 11, column 12 to column 13)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 16, column 12 to column 13)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 25, column 12 to column 13)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 26, column 11 to column 12)"};
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 10, column 12 to column 13)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 15, column 12 to column 13)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 24, column 12 to column 13)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 25, column 11 to column 12)"};
 
 
 

@@ -10,7 +10,7 @@ parameters {
 }
 
 model {
-    target += -2*log(sigma);
+    target += -2 * log(sigma);
     target += gamma_lpdf (nu|2,0.1); 
     target += student_t_lpdf(y|nu,mu,sigma);
 }

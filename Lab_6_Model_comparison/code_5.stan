@@ -6,7 +6,6 @@ data {
 }
 
 parameters {
-
     real <lower=0> sigma;
     vector [K] beta;
 }

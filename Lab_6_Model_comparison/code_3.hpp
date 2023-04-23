@@ -18,7 +18,7 @@ static constexpr std::array<const char*, 16> locations_array__ =
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 21, column 8 to column 41)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 19, column 19 to line 22, column 5)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 19, column 4 to line 22, column 5)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 12, column 4 to column 28)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 12, column 4 to column 30)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 13, column 4 to column 40)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 2, column 4 to column 10)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 3, column 11 to column 12)",
