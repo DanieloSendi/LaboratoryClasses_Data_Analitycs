@@ -7,14 +7,14 @@ data {
 
 parameters {
 
-    real<lower=0> sigma;
+    real <lower=0> sigma;
     vector [K] beta;
 }
 
 transformed parameters {
     /* ... declarations... statements ... */ 
     vector [N] mu;
-    mu = X*beta;
+    mu = X * beta;
 }
 
 model {

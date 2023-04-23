@@ -1,5 +1,5 @@
 data {
-int<lower=1> N; //number of samples
+int <lower=1> N; //number of samples
 }
 
 generated quantities {
@@ -7,10 +7,11 @@ generated quantities {
     array [N] real y; 
     for (i in 1:N) {
     /* code */  
-    if (bernoulli_rng(theta)) { 
-        y[i] = normal_rng(10,10); }
+        if (bernoulli_rng(theta)) { 
+            y[i] = normal_rng(10,10); 
+        }
         else {
-    y[i] = normal_rng(0,1);
+            y[i] = normal_rng(0,1);
         }
     }
 }

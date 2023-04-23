@@ -1,5 +1,5 @@
 data {
-    int<lower=1> N; //number of samples
+    int <lower=1> N; //number of samples
 }
 
 generated quantities {
@@ -9,9 +9,9 @@ generated quantities {
 
     for (j in 1:3) {
         X[:,j]=to_vector(normal_rng(zeros,1));
-    /* code */
-}
-}
+        /* code */
+    }
+    }
 
     vector [3] beta;
     beta = [2, 1, 0.5]';

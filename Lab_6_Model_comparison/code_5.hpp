@@ -10,10 +10,10 @@ using namespace stan::math;
 stan::math::profile_map profiles__;
 static constexpr std::array<const char*, 23> locations_array__ = 
 {" (found before start of program)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 10, column 4 to column 24)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 10, column 4 to column 25)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 11, column 4 to column 20)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 16, column 4 to column 18)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 17, column 4 to column 16)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 17, column 4 to column 18)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 25, column 4 to column 23)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 26, column 4 to column 25)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_5.stan', line 28, column 8 to column 54)",

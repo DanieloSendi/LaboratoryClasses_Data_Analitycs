@@ -10,7 +10,7 @@ using namespace stan::math;
 stan::math::profile_map profiles__;
 static constexpr std::array<const char*, 16> locations_array__ = 
 {" (found before start of program)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 7, column 4 to column 24)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 7, column 4 to column 25)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 8, column 4 to column 12)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 17, column 4 to column 23)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 18, column 4 to column 25)",
@@ -18,8 +18,8 @@ static constexpr std::array<const char*, 16> locations_array__ =
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 21, column 8 to column 41)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 19, column 19 to line 22, column 5)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 19, column 4 to line 22, column 5)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 12, column 4 to column 26)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 13, column 4 to column 38)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 12, column 4 to column 28)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 13, column 4 to column 40)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 2, column 4 to column 10)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 3, column 11 to column 12)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/Lab_6_Model_comparison/code_3.stan', line 3, column 4 to column 21)",

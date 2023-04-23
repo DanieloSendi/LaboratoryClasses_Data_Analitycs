@@ -4,9 +4,9 @@ data {
 }
 
 parameters {
-    real<lower=0> sigma;
+    real <lower=0> sigma;
     real mu;
-    real<lower=0> nu;
+    real <lower=0> nu;
 }
 
 model {

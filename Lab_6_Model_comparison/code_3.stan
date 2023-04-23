@@ -4,13 +4,13 @@ data {
 }
 
 parameters {
-    real<lower=0> sigma;
+    real <lower=0> sigma;
     real mu;
 }
 
 model {
-    target+=-2*log(sigma);
-    target+=normal_lpdf (y|mu, sigma);
+    target += -2*log(sigma);
+    target += normal_lpdf (y|mu, sigma);
 }
 
 generated quantities {
