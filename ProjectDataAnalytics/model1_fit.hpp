@@ -8,7 +8,7 @@ using namespace stan::math;
 
 
 stan::math::profile_map profiles__;
-static constexpr std::array<const char*, 43> locations_array__ = 
+static constexpr std::array<const char*, 44> locations_array__ = 
 {" (found before start of program)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 19, column 2 to column 17)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 22, column 2 to column 16)",
@@ -17,22 +17,23 @@ static constexpr std::array<const char*, 43> locations_array__ =
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 25, column 2 to column 19)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 26, column 2 to column 21)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 27, column 2 to column 27)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 52, column 2 to column 22)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 53, column 2 to column 24)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 56, column 4 to line 61, column 75)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 63, column 4 to line 68, column 81)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 55, column 17 to line 69, column 3)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 55, column 2 to line 69, column 3)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 32, column 2 to column 19)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 33, column 2 to column 32)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 34, column 2 to column 35)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 35, column 2 to column 38)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 36, column 2 to column 35)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 37, column 2 to column 37)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 38, column 2 to column 38)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 42, column 4 to line 47, column 67)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 41, column 17 to line 48, column 3)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 41, column 2 to line 48, column 3)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 54, column 2 to column 22)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 55, column 2 to column 24)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 58, column 4 to line 63, column 75)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 65, column 4 to line 70, column 81)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 57, column 17 to line 71, column 3)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 57, column 2 to line 71, column 3)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 32, column 2 to column 23)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 34, column 2 to column 19)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 35, column 2 to column 26)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 36, column 2 to column 29)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 37, column 2 to column 32)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 38, column 2 to column 29)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 39, column 2 to column 31)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 40, column 2 to column 32)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 44, column 4 to line 49, column 67)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 43, column 17 to line 50, column 3)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 43, column 2 to line 50, column 3)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 3, column 2 to column 17)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 6, column 2 to column 8)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 7, column 8 to column 9)",
@@ -50,8 +51,8 @@ static constexpr std::array<const char*, 43> locations_array__ =
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 15, column 8 to column 9)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 15, column 2 to column 31)",
  " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 19, column 10 to column 13)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 52, column 8 to column 9)",
- " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 53, column 8 to column 9)"};
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 54, column 8 to column 9)",
+ " (in '/home/LaboratoryClasses_Data_Analitycs/ProjectDataAnalytics/model1_fit.stan', line 55, column 8 to column 9)"};
 
 
 
@@ -96,106 +97,106 @@ class model1_fit_model final : public model_base_crtp<model1_fit_model> {
     try {
       int pos__ = std::numeric_limits<int>::min();
       pos__ = 1;
-      current_statement__ = 24;
+      current_statement__ = 25;
       context__.validate_dims("data initialization","N","int",
            std::vector<size_t>{});
       N = std::numeric_limits<int>::min();
       
       
-      current_statement__ = 24;
-      N = context__.vals_i("N")[(1 - 1)];
-      current_statement__ = 24;
-      stan::math::check_greater_or_equal(function__, "N", N, 0);
       current_statement__ = 25;
+      N = context__.vals_i("N")[(1 - 1)];
+      current_statement__ = 25;
+      stan::math::check_greater_or_equal(function__, "N", N, 0);
+      current_statement__ = 26;
       context__.validate_dims("data initialization","K","int",
            std::vector<size_t>{});
       K = std::numeric_limits<int>::min();
       
       
-      current_statement__ = 25;
-      K = context__.vals_i("K")[(1 - 1)];
       current_statement__ = 26;
-      stan::math::validate_non_negative_index("y", "N", N);
+      K = context__.vals_i("K")[(1 - 1)];
       current_statement__ = 27;
+      stan::math::validate_non_negative_index("y", "N", N);
+      current_statement__ = 28;
       context__.validate_dims("data initialization","y","int",
            std::vector<size_t>{static_cast<size_t>(N)});
       y = std::vector<int>(N, std::numeric_limits<int>::min());
       
       
-      current_statement__ = 27;
-      y = context__.vals_i("y");
       current_statement__ = 28;
-      stan::math::validate_non_negative_index("age_pred", "N", N);
+      y = context__.vals_i("y");
       current_statement__ = 29;
+      stan::math::validate_non_negative_index("age_pred", "N", N);
+      current_statement__ = 30;
       context__.validate_dims("data initialization","age_pred","double",
            std::vector<size_t>{static_cast<size_t>(N)});
       age_pred = 
         std::vector<double>(N, std::numeric_limits<double>::quiet_NaN());
       
       
-      current_statement__ = 29;
-      age_pred = context__.vals_r("age_pred");
       current_statement__ = 30;
-      stan::math::validate_non_negative_index("gender_pred", "N", N);
+      age_pred = context__.vals_r("age_pred");
       current_statement__ = 31;
+      stan::math::validate_non_negative_index("gender_pred", "N", N);
+      current_statement__ = 32;
       context__.validate_dims("data initialization","gender_pred","int",
            std::vector<size_t>{static_cast<size_t>(N)});
       gender_pred = std::vector<int>(N, std::numeric_limits<int>::min());
       
       
-      current_statement__ = 31;
-      gender_pred = context__.vals_i("gender_pred");
       current_statement__ = 32;
-      stan::math::validate_non_negative_index("schoolsup_pred", "N", N);
+      gender_pred = context__.vals_i("gender_pred");
       current_statement__ = 33;
+      stan::math::validate_non_negative_index("schoolsup_pred", "N", N);
+      current_statement__ = 34;
       context__.validate_dims("data initialization","schoolsup_pred","int",
            std::vector<size_t>{static_cast<size_t>(N)});
       schoolsup_pred = std::vector<int>(N, std::numeric_limits<int>::min());
       
       
-      current_statement__ = 33;
-      schoolsup_pred = context__.vals_i("schoolsup_pred");
       current_statement__ = 34;
-      stan::math::validate_non_negative_index("famsup_pred", "N", N);
+      schoolsup_pred = context__.vals_i("schoolsup_pred");
       current_statement__ = 35;
+      stan::math::validate_non_negative_index("famsup_pred", "N", N);
+      current_statement__ = 36;
       context__.validate_dims("data initialization","famsup_pred","int",
            std::vector<size_t>{static_cast<size_t>(N)});
       famsup_pred = std::vector<int>(N, std::numeric_limits<int>::min());
       
       
-      current_statement__ = 35;
-      famsup_pred = context__.vals_i("famsup_pred");
       current_statement__ = 36;
-      stan::math::validate_non_negative_index("studytime_pred", "N", N);
+      famsup_pred = context__.vals_i("famsup_pred");
       current_statement__ = 37;
+      stan::math::validate_non_negative_index("studytime_pred", "N", N);
+      current_statement__ = 38;
       context__.validate_dims("data initialization","studytime_pred","int",
            std::vector<size_t>{static_cast<size_t>(N)});
       studytime_pred = std::vector<int>(N, std::numeric_limits<int>::min());
       
       
-      current_statement__ = 37;
-      studytime_pred = context__.vals_i("studytime_pred");
       current_statement__ = 38;
-      stan::math::validate_non_negative_index("activities_pred", "N", N);
+      studytime_pred = context__.vals_i("studytime_pred");
       current_statement__ = 39;
+      stan::math::validate_non_negative_index("activities_pred", "N", N);
+      current_statement__ = 40;
       context__.validate_dims("data initialization","activities_pred","int",
            std::vector<size_t>{static_cast<size_t>(N)});
       activities_pred = std::vector<int>(N, std::numeric_limits<int>::min());
       
       
-      current_statement__ = 39;
-      activities_pred = context__.vals_i("activities_pred");
       current_statement__ = 40;
+      activities_pred = context__.vals_i("activities_pred");
+      current_statement__ = 41;
       c_1dim__ = std::numeric_limits<int>::min();
       
       
-      current_statement__ = 40;
-      c_1dim__ = (K - 1);
-      current_statement__ = 40;
-      stan::math::validate_non_negative_index("c", "K - 1", c_1dim__);
       current_statement__ = 41;
-      stan::math::validate_non_negative_index("grade", "N", N);
+      c_1dim__ = (K - 1);
+      current_statement__ = 41;
+      stan::math::validate_non_negative_index("c", "K - 1", c_1dim__);
       current_statement__ = 42;
+      stan::math::validate_non_negative_index("grade", "N", N);
+      current_statement__ = 43;
       stan::math::validate_non_negative_index("log_lik", "N", N);
     } catch (const std::exception& e) {
       stan::lang::rethrow_located(e, locations_array__[current_statement__]);
@@ -251,28 +252,26 @@ class model1_fit_model final : public model_base_crtp<model1_fit_model> {
                          Eigen::Matrix<local_scalar_t__, -1, 1>>(4);
       {
         current_statement__ = 14;
-        lp_accum__.add(stan::math::normal_lpdf<propto__>(c, 0, 3));
+        lp_accum__.add(stan::math::uniform_lpdf<propto__>(c, -25, 25));
         current_statement__ = 15;
-        lp_accum__.add(
-          stan::math::student_t_lpdf<propto__>(coef_age, 3, 1, 3));
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(c, 0, 3));
         current_statement__ = 16;
-        lp_accum__.add(
-          stan::math::student_t_lpdf<propto__>(coef_gender, 3, 1, 3));
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(coef_age, 0, 1));
         current_statement__ = 17;
-        lp_accum__.add(
-          stan::math::student_t_lpdf<propto__>(coef_schoolsup, 3, 1, 3));
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(coef_gender, 0, 1));
         current_statement__ = 18;
         lp_accum__.add(
-          stan::math::student_t_lpdf<propto__>(coef_famsup, 3, 1, 3));
+          stan::math::normal_lpdf<propto__>(coef_schoolsup, 0, 1));
         current_statement__ = 19;
-        lp_accum__.add(
-          stan::math::student_t_lpdf<propto__>(coef_activity, 3, 1, 3));
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(coef_famsup, 0, 1));
         current_statement__ = 20;
+        lp_accum__.add(stan::math::normal_lpdf<propto__>(coef_activity, 0, 1));
+        current_statement__ = 21;
         lp_accum__.add(
-          stan::math::student_t_lpdf<propto__>(coef_studytime, 3, 1, 3));
-        current_statement__ = 23;
+          stan::math::normal_lpdf<propto__>(coef_studytime, 0, 1));
+        current_statement__ = 24;
         for (int n = 1; n <= N; ++n) {
-          current_statement__ = 21;
+          current_statement__ = 22;
           lp_accum__.add(
             stan::math::ordered_logistic_lpmf<propto__>(
               stan::model::rvalue(y, "y", stan::model::index_uni(n)),

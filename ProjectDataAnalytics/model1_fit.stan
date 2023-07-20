@@ -28,14 +28,16 @@ parameters {
 }
 
 model {
+
+  c ~ uniform(-25, 25);
   // Priors
   c ~ normal(0, 3);                       // Prior for cutpoints
-  coef_age ~ student_t(3, 1, 3);                  // Prior for age coefficient
-  coef_gender ~ student_t(3, 1, 3);               // Prior for gender coefficient
-  coef_schoolsup ~ student_t(3, 1, 3);            // Prior for extra educational support coefficient
-  coef_famsup ~ student_t(3, 1, 3);               // Prior for family educational support coefficient
-  coef_activity ~ student_t(3, 1, 3);             // Prior for activities coefficient
-  coef_studytime ~ student_t(3, 1, 3);            // Prior for weekly study time coefficient
+  coef_age ~ normal(0, 1);                  // Prior for age coefficient
+  coef_gender ~ normal(0, 1);               // Prior for gender coefficient
+  coef_schoolsup ~ normal(0, 1);            // Prior for extra educational support coefficient
+  coef_famsup ~ normal(0, 1);               // Prior for family educational support coefficient
+  coef_activity ~ normal(0, 1);             // Prior for activities coefficient
+  coef_studytime ~ normal(0, 1);            // Prior for weekly study time coefficient
 
   // Likelihood
   for (n in 1:N) {
