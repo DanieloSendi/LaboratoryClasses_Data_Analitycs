@@ -28,8 +28,6 @@ parameters {
 }
 
 model {
-
-  c ~ uniform(-25, 25);
   // Priors
   c ~ normal(0, 3);                       // Prior for cutpoints
   coef_age ~ normal(0, 1);                  // Prior for age coefficient
